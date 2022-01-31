@@ -1,0 +1,66 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Newsletter Website</title>
+  </head>
+  <body>
+    <div class="alert_box">Message</div>
+    <div class="container row">
+      <div class="mak__box">
+        <div class="description__box">
+          <div class="small_box row">
+            <div>
+
+              <h2>Mercury Newsletter</h2>
+              <p>Mercury is an enhanced platform that accelerate the growth of
+                our client's business within a short period of time using proved
+                strategies that have been tested and bidded by the most renouned
+                sales personel, enterprenures, business enthusiast.
+              </p>
+            </div>
+            <div class="form">
+              <form action="/sendmail" method="post">
+                <div class="message__box">
+                  <input
+                    class="subject"
+                    type="text"
+                    name="subject"
+                    placeholder="Enter Email Subject"
+                    required
+                  />
+                  <textarea
+                    placeholder="Enter Your Message"
+                    name="message"
+                    id=""
+                    cols="30"
+                    rows="10"
+                  ></textarea>
+                  <input
+                    placeholder="Add an Email example@email.com"
+                    type="text"
+                    class="email__marketing"
+                    name="emails"
+                    required
+                  />
+                  <button type="submit">Send Email</button>
+                </div>
+              </form>
+
+            </div>
+            <div class="note">
+              <p>Note: Mails Might go to your spam box due to the email being
+                created recently and has not been used for 3 weeks in sending
+                emails</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="/js/app.js"></script>
+  </body>
+</html>
